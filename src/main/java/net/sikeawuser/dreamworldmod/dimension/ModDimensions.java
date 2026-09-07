@@ -9,4 +9,10 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.dimension.DimensionType;
 
 public class ModDimensions {
+    public static final ResourceKey<Level> DREAMWORLD = ResourceKey.create(Registries.DIMENSION,
+            new ResourceLocation(DreamMod.MOD_ID, "dreamworld"));
+
+    private ModDimensions() {
+
+    }
 }
