@@ -14,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.sikeawuser.dreamworldmod.item.ModItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -21,7 +22,7 @@ import org.slf4j.Logger;
 public class DreamMod
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "dreamworldmod";
+    public static final String MOD_ID = "dreamworld";
     // Directly reference a logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -82,6 +83,8 @@ public class DreamMod
     }
     public DreamMod() {
 
+        ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
 
+        LOGGER.info("Dream is LOADING...");
     }
 }
