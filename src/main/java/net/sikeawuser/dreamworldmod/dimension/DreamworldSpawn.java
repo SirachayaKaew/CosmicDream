@@ -6,9 +6,9 @@ import net.minecraft.world.level.block.Blocks;
 
 public final class DreamworldSpawn {
 
-    public static final int SPAWN_X = 0;
-    public static final int SPAWN_Y = 80;
-    public static final int SPAWN_Z = 0;
+    public static int SPAWN_X = 0;
+    public static int SPAWN_Y = 80;
+    public static int SPAWN_Z = 0;
 
     private DreamworldSpawn() {
     }

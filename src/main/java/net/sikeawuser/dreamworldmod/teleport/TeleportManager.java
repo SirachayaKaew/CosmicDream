@@ -5,7 +5,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.sikeawuser.dreamworldmod.dimension.DreamworldSpawn;
-import net.sikeawuser.dreamworldmod.dimension.ModDimensions;
+import net.sikeawuser.dreamworldmod.registry.DMDimensions;
 
 public class TeleportManager {
 
@@ -49,10 +49,10 @@ public class TeleportManager {
         if (player.level().isClientSide()){
             return false;
         }
-        if (player.level().dimension().equals(ModDimensions.DREAMWORLD)) {
+        if (player.level().dimension().equals(DMDimensions.DREAMWORLD)) {
             return false;
         }
-        ServerLevel dreamworld = player.getServer().getLevel(ModDimensions.DREAMWORLD);
+        ServerLevel dreamworld = player.getServer().getLevel(DMDimensions.DREAMWORLD);
 
         if (dreamworld == null) {
             return false;
@@ -68,7 +68,7 @@ public class TeleportManager {
         if (player.level().isClientSide()){
             return false;
         }
-        if (!player.level().dimension().equals(ModDimensions.DREAMWORLD)) {
+        if (!player.level().dimension().equals(DMDimensions.DREAMWORLD)) {
             return false;
         }
         ReturnLocation returnLocation = getReturnLocation(player);

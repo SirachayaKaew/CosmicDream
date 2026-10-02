@@ -1,5 +1,5 @@
 {
-  "type": "dreamworldmod:dreamworld_type",
+  "type": "dreamworld:dreamworld_type",
   "generator": {
     "type": "minecraft:flat",
     "settings": {

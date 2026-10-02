@@ -1,9 +1,7 @@
 package net.sikeawuser.dreamworldmod.item;
 
-import net.minecraftforge.client.event.RegisterColorHandlersEvent;
-import net.sikeawuser.dreamworldmod.dimension.ModDimensions;
+import net.sikeawuser.dreamworldmod.registry.DMDimensions;
 import net.sikeawuser.dreamworldmod.teleport.TeleportManager;
-import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
@@ -54,7 +52,7 @@ public class KeyItem extends Item {
             return InteractionResultHolder.fail(stack);
         }
 
-        if (serverPlayer.level().dimension().equals(ModDimensions.DREAMWORLD)) {
+        if (serverPlayer.level().dimension().equals(DMDimensions.DREAMWORLD)) {
             successful = TeleportManager.leaveDreamworld(serverPlayer);
         } else {
             successful = TeleportManager.enterDreamWorld(serverPlayer);
