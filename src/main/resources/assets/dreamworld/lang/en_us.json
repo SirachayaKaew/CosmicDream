@@ -3,5 +3,9 @@
   "_comment1": "Untranslated entries will automatically include in other language files through datagen.",
   "_comment2": "Datagen runs everytime when the mod has content update, Thank you for your contribution.",
 
-  "item.dreamworld.key" : "Key"
+  "item.dreamworld.key" : "Key",
+  "block.dreamworld.invisible_block" : "Invisible Block",
+
+
+  "creativetab.dream_tab" : "Dreamworld"
 }

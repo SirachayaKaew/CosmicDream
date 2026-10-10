@@ -1,4 +1,4 @@
-package net.sikeawuser.dreamworldmod;
+package net.sikeawuser.dreamworld;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;

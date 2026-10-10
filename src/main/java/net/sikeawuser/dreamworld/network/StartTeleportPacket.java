@@ -1,4 +1,4 @@
-package net.sikeawuser.dreamworldmod.network;
+package net.sikeawuser.dreamworld.network;
 
 import net.minecraft.network.FriendlyByteBuf;
 public class StartTeleportPacket {

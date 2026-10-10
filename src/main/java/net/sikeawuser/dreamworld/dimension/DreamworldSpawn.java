@@ -1,4 +1,4 @@
-package net.sikeawuser.dreamworldmod.dimension;
+package net.sikeawuser.dreamworld.dimension;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.Blocks;
 public final class DreamworldSpawn {
 
     public static int SPAWN_X = 0;
-    public static int SPAWN_Y = 80;
+    public static int SPAWN_Y = 2;
     public static int SPAWN_Z = 0;
 
     private DreamworldSpawn() {

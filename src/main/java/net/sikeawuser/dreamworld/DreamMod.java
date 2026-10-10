@@ -1,7 +1,11 @@
-package net.sikeawuser.dreamworldmod;
+package net.sikeawuser.dreamworld;
 
-import net.sikeawuser.dreamworldmod.registry.DMItems;
-import net.sikeawuser.dreamworldmod.registry.DMNetwork;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.commands.DebugMobSpawningCommand;
+import net.sikeawuser.dreamworld.registry.DMBlocks;
+import net.sikeawuser.dreamworld.registry.DMCreativeTabs;
+import net.sikeawuser.dreamworld.registry.DMItems;
+import net.sikeawuser.dreamworld.registry.DMNetwork;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,6 +34,9 @@ public class DreamMod
     // Directly reference a logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
+    public static ResourceLocation id (String path) {
+        return new ResourceLocation(MOD_ID,path);
+    }
     public DreamMod(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
@@ -41,6 +48,8 @@ public class DreamMod
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
         DMNetwork.register();
+        DMBlocks.register(modEventBus);
+        DMCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         LOGGER.info("Dream is LOADING...");

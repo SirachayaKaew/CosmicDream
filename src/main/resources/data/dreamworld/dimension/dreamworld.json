@@ -6,7 +6,12 @@
       "biome": "minecraft:the_void",
       "lakes": false,
       "features": false,
-      "layers": [],
+      "layers": [
+        {
+          "height": 64,
+          "block": "dreamworld:invisible_block"
+        }
+      ],
       "structure_overrides": []
     }
   }

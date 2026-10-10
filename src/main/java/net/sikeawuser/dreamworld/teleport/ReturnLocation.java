@@ -1,4 +1,4 @@
-package net.sikeawuser.dreamworldmod.teleport;
+package net.sikeawuser.dreamworld.teleport;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.nbt.CompoundTag;
@@ -51,7 +51,7 @@ public class ReturnLocation {
         return pitch;
     }
 
-    public CompoundTag toNBT() {
+    public CompoundTag save() {
         CompoundTag tag = new CompoundTag();
 
         tag.putString("Dimension" , dimension.location().toString());
@@ -65,24 +65,11 @@ public class ReturnLocation {
         return tag;
     }
 
-    public static ReturnLocation formNBT(CompoundTag tag, ServerPlayer player) {
-        if (!tag.contains("Dimension")) {
-            return null;
-        }
+    public static ReturnLocation load(CompoundTag tag, ServerPlayer player) {
 
-        ResourceLocation dimensionLocation = new ResourceLocation(tag.getString("Dimension"));
-        ResourceKey<Level> dimension = ResourceKey.create(
-                Registries.DIMENSION, dimensionLocation
-        );
-        return  new ReturnLocation(dimension,
-                tag.getDouble("X"),
-                tag.getDouble("Y"),
-                tag.getDouble("Z"),
-                tag.getFloat("Yaw"),
-                tag.getFloat("Pitch"));
+        ResourceLocation location = ResourceLocation.parse(tag.getString("Dimension"));
+        ResourceKey<Level> dimension = ResourceKey.create( Registries.DIMENSION, location );
+        return  new ReturnLocation(dimension, tag.getDouble("X"), tag.getDouble("Y"), tag.getDouble("Z"), tag.getFloat("Yaw"), tag.getFloat("Pitch"));
     }
 
-    public ServerLevel getServerLevel(ServerPlayer player) {
-        return player.getServer().getLevel(dimension);
-    }
 }

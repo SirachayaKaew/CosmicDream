@@ -1,7 +1,7 @@
-package net.sikeawuser.dreamworldmod.item;
+package net.sikeawuser.dreamworld.item;
 
-import net.sikeawuser.dreamworldmod.registry.DMDimensions;
-import net.sikeawuser.dreamworldmod.teleport.TeleportManager;
+import net.sikeawuser.dreamworld.registry.DMDimensions;
+import net.sikeawuser.dreamworld.teleport.TeleportManager;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
@@ -27,7 +27,7 @@ public class KeyItem extends Item {
         ItemStack stack = player.getItemInHand(hand);
 
         TextColor astrocolor = TextColor.fromRgb(0x483475);
-        Component CANTUSEKYITEMTEXT = Component.literal("You can't meet the dream Until when it time you should sleep"
+        Component CANTUSEKYITEMTEXT = Component.literal("The Key only responds under the night sky."
         ).withStyle(Style.EMPTY.withColor(astrocolor));
         boolean successful;
 
