@@ -24,7 +24,7 @@ public class CMGridRender {
 
     private static final float FLOOR_RED_Y = -15.0F;
     private static final float FLOOR_BLUE_Y = -30.0F;
-    private static final float CEILING_RED_Y = 60.0F;
+    private static final float CEILING_RED_Y = 90.0F;
     private static final float CEILING_BLUE_Y = 150.0F;
 
     private static final int HALF = 2048;
@@ -34,16 +34,16 @@ public class CMGridRender {
     private static final float FAR_PLANE = 4000.0F;
 
     private static final int RED_SPACING = 16;
-    private static final int BLUE_SPACING = 8;
+    private static final int BLUE_SPACING = 16;
     private static final int BLUE_OFFSET = 4;
     private static final int RECENTER_SNAP = 32;
     private static final float WIDEN = 1.0F / 300.0F;
 
     private record Style(float r, float g, float b, float coreHalf, float glowHalf, float coreAlpha, float shoulderAlpha) {}
 
-    private static final Style RED = new Style(1.00F, 0.15F, 0.25F, 0.30F, 0.60F, 0.60F, 0.20F);
+    private static final Style RED = new Style(1.00F, 0.15F, 0.25F, 0.30F, 0.65F, 0.60F, 0.20F);
 
-    private static final Style BLUE = new Style(0.20F, 0.35F, 1.00F, 0.25F, 0.25F, 0.25F, 0.12F);
+    private static final Style BLUE = new Style(0.20F, 0.35F, 1.00F, 0.25F, 0.25F, 0.15F, 0.12F);
 
     private static VertexBuffer redBuffer;
     private static VertexBuffer blueBuffer;

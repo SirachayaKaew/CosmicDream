@@ -27,9 +27,9 @@ public class CosmicSkyRender {
     private static final float MOON_PITCH = 12.0F;
     private static final float MOON_SIZE = 5.0F;
 
-    private static final int STAR_COUNT = 2000;
+    private static final int STAR_COUNT = 2250;
     private static final int FLARE_COUNT = 72;
-    private static final int NEBULA_COUNT = 15;
+    private static final int NEBULA_COUNT = 21;
 
     private static final float DRIFT_SPEED = 0.004F;
 
@@ -93,7 +93,7 @@ public class CosmicSkyRender {
             addDisc(b, m, 38.0F, 40, 0.04F, 0.09F, 0.40F, 0, 0, 0);
             addDisc(b, m, 14.0F, 40, 0.22F, 0.36F, 0.95F, 0, 0, 0);
             addDisc(b, m, MOON_SIZE * 1.6F, 32, 0.65F, 0.75F, 1.00F, 0, 0, 0);
-            addDisc(b, m, MOON_SIZE, 32, 1.00F, 1.00F, 1.00F, 0.80F, 0.86F, 1.00F);
+            addDisc(b, m, MOON_SIZE, 32, 1.00F, 1.00F, 1.00F,  0.90F, 0.86F, 1.00F);
         }
 
         return upload(b);

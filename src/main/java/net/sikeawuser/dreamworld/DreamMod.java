@@ -72,12 +72,7 @@ public class DreamMod
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
-        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
-            event.accept(DMItems.KEY);
-        }
-    }
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {}
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent

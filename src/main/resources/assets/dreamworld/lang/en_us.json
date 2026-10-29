@@ -4,6 +4,8 @@
   "_comment2": "Datagen runs everytime when the mod has content update, Thank you for your contribution.",
 
   "item.dreamworld.key" : "Key",
+  "item.dreamworld.dream_disc" : "The Mysterious Shrine Maiden Flying Through Space",
+  "item.dreamworld.dream_disc.desc" : "The Mysterious Shrine Maiden Flying Through Space - Original ZUN",
   "block.dreamworld.invisible_block" : "Invisible Block",
 
 

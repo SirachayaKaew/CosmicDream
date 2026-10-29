@@ -12,9 +12,9 @@ import net.sikeawuser.dreamworld.registry.DMDimensions;
 @Mod.EventBusSubscriber(modid = DreamMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE , value = Dist.CLIENT)
 public class CosmicFogHandler {
 
-    private static final float FOG_RED = 0.10F;
-    private static final float FOG_GREEN = 0.15F;
-    private static final float FOG_BLUE = 0.70F;
+    private static final float FOG_RED = 0.015F;
+    private static final float FOG_GREEN = 0.0015F;
+    private static final float FOG_BLUE = 0.085F;
     private static final float FOG_START = 8.0F;
     private static final float FOG_END = 80.0F;
 

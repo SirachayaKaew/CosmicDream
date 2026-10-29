@@ -1,0 +1,10 @@
+{
+  "dreamworld" : {
+    "sounds" : [
+      {
+        "name" : "dreamworld:dreamworld",
+        "stream" : true
+      }
+    ]
+  }
+}
