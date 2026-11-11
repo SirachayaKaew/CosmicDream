@@ -8,6 +8,7 @@
   "item.dreamworld.dream_disc.desc" : "The Mysterious Shrine Maiden Flying Through Space - Original ZUN",
   "block.dreamworld.invisible_block" : "Invisible Block",
 
-
+  "tooltip.dreamworld.key.tooltip1" : "Right Click to enter strange Dimension",
+  "tooltip.dreamworld.key.tooltip2" : "Right Click to enter Dreamworld Dimension",
   "creativetab.dream_tab" : "Dreamworld"
 }

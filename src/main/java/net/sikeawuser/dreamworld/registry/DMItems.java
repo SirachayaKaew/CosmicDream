@@ -17,7 +17,7 @@ public class DMItems {
     public static final RegistryObject<Item> ICON = ITEMS.register("icon", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> INVISIBLE_BLOCK_ITEM = ITEMS.register("invisible_block", () -> new BlockItem(DMBlocks.INVISIBLE_BLOCK.get(), new Item.Properties()));
-    public static final RegistryObject<Item> DREAM_DISC = ITEMS.register("dream_disc", () -> new RecordItem( 6 , DMSoundEvents.DIMENSION_THEME_DISK , new Item.Properties().stacksTo(1) , 144));
+    public static final RegistryObject<Item> DREAM_DISC = ITEMS.register("dreamdisc", () -> new RecordItem( 6 , DMSoundEvents.DIMENSION_THEME_DISK , new Item.Properties().stacksTo(1) , 2880));
     private DMItems() {}
 
     public static void register(IEventBus eventBus) {

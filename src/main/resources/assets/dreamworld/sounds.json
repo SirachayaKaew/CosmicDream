@@ -1,8 +1,8 @@
 {
-  "dreamworld" : {
+  "cosmic" : {
     "sounds" : [
       {
-        "name" : "dreamworld:dreamworld",
+        "name" : "dreamworld:cosmic",
         "stream" : true
       }
     ]
