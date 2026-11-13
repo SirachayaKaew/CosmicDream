@@ -13,7 +13,7 @@ public class DMSoundEvents {
 
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, DreamMod.MOD_ID);
 
-    public static final RegistryObject<SoundEvent> DIMENSION_THEME1 = registerSoundEvents("dream1");
+//    public static final RegistryObject<SoundEvent> DIMENSION_THEME1 = registerSoundEvents("dream1");
     public static final RegistryObject<SoundEvent> DIMENSION_THEME_DISK = registerSoundEvents("cosmic");
 
 

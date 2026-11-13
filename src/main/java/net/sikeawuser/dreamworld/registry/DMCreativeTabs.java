@@ -17,7 +17,7 @@ public class DMCreativeTabs {
 
     public static final RegistryObject<CreativeModeTab> DREAM_TAB = CREATIVE_MODE_TABS.register("dream_tab",
             () -> CreativeModeTab.builder().icon( () ->new ItemStack(DMItems.ICON.get()))
-                    .title((Component.translatable("creativetab.dream_tab")))
+                    .title((Component.translatable("creativetab.dreamworld.dream_tab")))
                     .displayItems((pParameters , pOutput) -> {
                         pOutput.accept(DMItems.KEY.get());
                     }).build());

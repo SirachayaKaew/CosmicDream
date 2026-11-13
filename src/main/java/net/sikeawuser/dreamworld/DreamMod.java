@@ -2,10 +2,7 @@ package net.sikeawuser.dreamworld;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.commands.DebugMobSpawningCommand;
-import net.sikeawuser.dreamworld.registry.DMBlocks;
-import net.sikeawuser.dreamworld.registry.DMCreativeTabs;
-import net.sikeawuser.dreamworld.registry.DMItems;
-import net.sikeawuser.dreamworld.registry.DMNetwork;
+import net.sikeawuser.dreamworld.registry.*;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -50,6 +47,7 @@ public class DreamMod
         DMNetwork.register();
         DMBlocks.register(modEventBus);
         DMCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+        DMSoundEvents.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         LOGGER.info("Dream is LOADING...");

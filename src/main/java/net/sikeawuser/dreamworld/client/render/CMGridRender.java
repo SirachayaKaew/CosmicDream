@@ -43,7 +43,7 @@ public class CMGridRender {
 
     private static final Style RED = new Style(1.00F, 0.15F, 0.25F, 0.30F, 0.65F, 0.60F, 0.20F);
 
-    private static final Style BLUE = new Style(0.20F, 0.35F, 1.00F, 0.25F, 0.25F, 0.15F, 0.12F);
+    private static final Style BLUE = new Style(0.20F, 0.35F, 1.00F, 0.25F, 0.55F, 0.50F, 0.18F);
 
     private static VertexBuffer redBuffer;
     private static VertexBuffer blueBuffer;

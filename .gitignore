@@ -5,7 +5,7 @@ bin
 .metadata
 .classpath
 .project
-
+.cache
 # idea
 out
 *.ipr
@@ -20,7 +20,7 @@ build
 # other
 eclipse
 run
-
+run-data
 # Files from Forge MDK
 forge*changelog.txt
-
+fml.toml

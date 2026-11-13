@@ -3,6 +3,7 @@ package net.sikeawuser.dreamworld.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.sikeawuser.dreamworld.DreamMod;
@@ -20,5 +21,6 @@ public class DMItemTagGenerator extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider p_256380_) {
         tag(DMTags.Items.TELEPORT_KEY).add(DMItems.KEY.get());
+        tag(ItemTags.MUSIC_DISCS).add(DMItems.DREAM_DISC.get());
     }
 }

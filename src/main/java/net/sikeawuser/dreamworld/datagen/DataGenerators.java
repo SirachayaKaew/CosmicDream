@@ -27,9 +27,9 @@ public class DataGenerators {
 
         DMBlockTagProvider blockTagProvider = generator.addProvider(gatherDataEvent.includeServer(), new DMBlockTagProvider(output, lookup , helper));
         generator.addProvider(gatherDataEvent.includeServer(), new DMItemTagGenerator(output, lookup , blockTagProvider.contentsGetter() , helper));
-        generator.addProvider(gatherDataEvent.includeServer(), new LootTableProvider(output , Set.of() , List.of(new LootTableProvider.SubProviderEntry(ModBlockLoot::new , LootContextParamSets.BLOCK))));
+        generator.addProvider(gatherDataEvent.includeServer(), new LootTableProvider(output , Set.of() , List.of(new LootTableProvider.SubProviderEntry(DMBlockLoot::new , LootContextParamSets.BLOCK))));
 
-        generator.addProvider(gatherDataEvent.includeClient(), new ModLangProvider(output));
-        generator.addProvider(gatherDataEvent.includeClient(), new ModSoundProvider(output , helper));
+        generator.addProvider(gatherDataEvent.includeClient(), new DMLangProvider(output));
+        generator.addProvider(gatherDataEvent.includeClient(), new DMSoundProvider(output , helper));
     }
 }

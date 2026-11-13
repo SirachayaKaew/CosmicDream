@@ -1,0 +1,10 @@
+{
+  "cosmic": {
+    "sounds": [
+      {
+        "name": "dreamworld:cosmic",
+        "stream": true
+      }
+    ]
+  }
+}
