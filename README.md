@@ -169,8 +169,7 @@ For more information, please refer to:
 
 ## Links
 
-- **GitHub:** [CosmicDream Repository](YOUR_GITHUB_URL)
-- **Modrinth:** [CosmicDream Project](YOUR_MODRINTH_URL)
+- **GitHub:** [CosmicDream Repository](https://github.com/SirachayaKaew/CosmicDream)
 - **CurseForge:** [CosmicDream Project](YOUR_CURSEFORGE_URL)
 
 ---
