@@ -16,15 +16,6 @@ This project is independently developed by its creator(s).
 
 All original code, original designs, gameplay mechanics, and other independently created materials belong to their respective creators, unless otherwise stated.
 
-### Third-Party Assets & Resources
-Additional credits for third-party materials used in this project:
-
-- **Music:** [Creator / Source]
-- **Sound Effects:** [Creator / Source]
-- **Textures & Graphics:** [Creator / Source]
-- **Fonts:** [Creator / Source]
-- **Libraries & Tools:** [Creator / Source]
-
 Please refer to the respective creators and licenses for the ownership and usage rights of third-party materials.
 
 ---
