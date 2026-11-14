@@ -175,10 +175,10 @@ For more information, please refer to:
 
 ---
 
-<p align="center">
+<!-- <p align="center">
   <strong>CosmicDream</strong>
   <br>
   <em>Beyond the boundaries of dreams.</em>
   <br><br>
   Made with passion and curiosity.
-</p>
+</p> -->
