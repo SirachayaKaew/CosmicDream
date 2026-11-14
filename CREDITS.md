@@ -1,35 +1,50 @@
-# Credits & Disclaimer
+# Credits
 
-## Credits
+This document acknowledges the creators, intellectual properties, and resources that inspired or contributed to **CosmicDream**.
 
-### Touhou Project
-This project contains fan-made content based on **Touhou Project**, originally created by **ZUN / Team Shanghai Alice**.
+## 1. Touhou Project
+
+**CosmicDream** is an unofficial Minecraft mod that incorporates fan-made elements inspired by Touhou Project.
 
 - **Original Work:** Touhou Project
-- **Original Creator:** ZUN (Team Shanghai Alice)
+- **Original Creator:** ZUN
+- **Copyright Holder:** Team Shanghai Alice
 - **Official Website:** https://touhou-project.news/
 
-All rights to the original Touhou Project characters, settings, names, and other related intellectual properties belong to their respective rights holders.
+Touhou Project-related characters, music, artwork, names, terminology, settings, and other original materials remain the property of their respective rights holders.
 
-### Project Development
-This project is independently developed by its creator(s).
+CosmicDream does not claim ownership of any original Touhou Project intellectual property.
 
-All original code, original designs, gameplay mechanics, and other independently created materials belong to their respective creators, unless otherwise stated.
+## 2. Original Project Contributions
 
-Please refer to the respective creators and licenses for the ownership and usage rights of third-party materials.
+The following elements are independently developed for CosmicDream:
 
----
+- Original Java code and programming implementation
+- Custom Minecraft gameplay systems and mechanics
+- Original textures and visual designs
+- Custom blocks, items, and environments
+- Dimension design and world generation
+- Original structures and level designs
+- Other original content developed specifically for this mod
 
-## Disclaimer
+These original contributions belong to their respective creators, unless otherwise stated.
 
-This project is an unofficial, fan-made project inspired by and containing derivative elements from **Touhou Project**.
+## 3. Third-Party Resources
 
-It is not an official Touhou Project product, nor is it affiliated with, endorsed by, sponsored by, or associated with ZUN or Team Shanghai Alice.
+Third-party resources used in this project will be credited below.
 
-The original Touhou Project materials and intellectual properties remain the property of their respective rights holders. The developer(s) do not claim ownership of the original Touhou Project content used or referenced in this project.
+| Resource | Creator / Source | License |
+|---|---|---|
 
-This project is created independently as a fan work, in accordance with the [Touhou Project Fan Creator Guidelines](https://touhou-project.news/guidelines_en/).
+Only resources whose usage and redistribution permissions have been verified should be included in the released version.
 
-All original contributions made specifically for this project remain the property of their respective creators.
+## 4. Special Thanks
 
-**Thank you to ZUN and Team Shanghai Alice for creating Touhou Project and inspiring fan creators to develop their own works.**
+Special thanks to:
+
+- ZUN / Team Shanghai Alice for creating Touhou Project.
+- The Minecraft modding community.
+- The creators of the tools and libraries used during development.
+- Everyone who supports and follows CosmicDream.
+
+Thank you for supporting this project!
