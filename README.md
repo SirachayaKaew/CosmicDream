@@ -122,6 +122,7 @@ Additional dependencies, if required, will be listed in the corresponding releas
 5. Check the Mods menu to confirm that CosmicDream is installed.
 
 **Note:** This project is currently in Demo development. Bugs, incomplete features, and unexpected behavior may occur.
+**Note2:** If you download shaders go to your shader settings and turn OFF clouds
 
 ## Screenshots & Media
 
@@ -169,8 +170,8 @@ For more information, please refer to:
 
 ## Links
 
-- **GitHub:** [CosmicDream Repository](https://github.com/SirachayaKaew/CosmicDream)
-- **CurseForge:** [CosmicDream Project](YOUR_CURSEFORGE_URL)
+- [Source](https://github.com/SirachayaKaew/CosmicDream)
+
 
 ---
 
